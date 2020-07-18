@@ -48,7 +48,7 @@ public class Main {
                 System.out.println("Yes, I can make that amount of coffee (and even " + (min - cup) + " more than that)");
                 min -= cup;
             }
-            else if(min==1 && min==cup)
+            else if( min==cup)
             {
                 System.out.println("Yes, I can make that amount of coffee");
                 min -= cup;
